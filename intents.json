@@ -1,0 +1,26 @@
+{"intents":[
+	{
+		"tag": "saludo",
+		"patterns": ["hola", "saludos", "qué tal"],
+		"responses": ["Hola","Buen día!"]
+	},
+	{
+		"tag": "nombre",
+		"patterns": ["cual es tu nombre", "como te llamas", "dime tu nombre", "como es tu nombre"],
+		"responses": ["Me llamo Mirai", "Mi nombre es Mirai"]
+	},
+	{
+		"tag": "estado",
+		"patterns": ["como estas", "que tal te encuentras", "como te va"],
+		"responses": ["Muy bien", "Bien", "De maravilla"]
+	},
+	{
+		"tag": "busqueda",
+		"patterns": ["busca", "significado", "significa"],
+		"responses": ["Segun wikipedia: "]
+	}
+	
+
+]
+
+}
